@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "*/system": true,
+        "system" : true,
+        "node_modules": true,
+        ".vscode": true,
+        "lib": true,
+        "tsconfig.json": true
+    },
+    "search.exclude": {
+        "*/system": true
+    },
+    "css.lint.emptyRules": "ignore",
+    "html.customData": [
+        "./lib/data/jelly_schema.json"
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1D856D",
+        "statusBar.foreground": "#fff",
+        "activityBar.background": "#1D856D",
+        "activityBar.foreground": "#fff"
+    },
+    "now.instance.authentication.type": "Basic",
+    "now.instance.user.name": "admin",
+    "now.instance.host.url": "https://dev91730.service-now.com",
+    "now.instance.OAuth.client.id": "",
+    "now.instance.user.password": "••••",
+    "now.instance.OAuth.client.secret": "",
+    "editor.defaultFormatter": "HookyQR.beautify"
+}
